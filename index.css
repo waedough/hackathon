@@ -1,0 +1,49 @@
+h1{
+    font-family: Arial;
+    color: hotpink;
+}
+#otherh1{ /*# is for singular use*/
+    color: blue;
+}
+.list{    /*. is for multi use*/
+    color: red;
+}
+
+.list2{
+    color: green;
+}
+
+#p2{
+    text-decoration: underline;
+    font-weight: 900; /*Bold text*/
+    font-style: italic;
+}
+
+body{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    font-size: x-large;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+    height: 4rem;
+    width: fit-content;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+/*
+px = pixels
+em = relative to font size of parent
+rem = relative to font size of root element
+% = percentage of parent's width/height
+*/
